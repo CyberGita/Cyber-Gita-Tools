@@ -11,6 +11,11 @@ A collection of cybersecurity tools developed by **Cyber Gita Company**.
 ## How to Use
 1. Clone this repository:
    ```bash
+   pkg update && pkg upgrade
+   pkg install python git
+   pkg install nmap
+   pip install requests
+   pip install cryptography
    git clone https://github.com/YourUsername/cyber-gita-tools.git
    cd cyber-gita-tools
    python tool_name.py
