@@ -1,0 +1,48 @@
+Step 1: Setting Up Termux
+Before we start coding, ensure Termux is set up properly:
+
+Install Termux from the Play Store or F-Droid.
+
+Update and upgrade packages:
+
+bash
+Copy
+pkg update && pkg upgrade
+Install Python and other dependencies:
+
+bash
+Copy
+pkg install python git
+
+Step 2: Tool Development Plan
+We’ll develop the following tools:
+
+Network Scanner: Scans the network for connected devices.
+
+Password Strength Checker: Checks the strength of a password.
+
+Phishing URL Detector: Detects if a URL is potentially phishing.
+
+File Encryptor/Decryptor: Encrypts and decrypts files using AES encryption.
+
+Each tool will have:
+
+A colorful and interactive menu.
+
+Proper error handling.
+
+Clear instructions for users.
+
+Branding for Cyber Gita Company.
+
+Step 3: Writing the Code
+Let’s start with the Network Scanner tool.
+
+Network Scanner Tool
+This tool will use nmap to scan the network.
+
+Install nmap in Termux:
+
+bash
+Copy
+pkg install nmap
